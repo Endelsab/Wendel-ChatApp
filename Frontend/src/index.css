@@ -4,17 +4,18 @@
 
 
 
-body{
+/*body{
 background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("./assets/pexels-pixabay-531880.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
-}
+}*/
 
 
 ::-webkit-scrollbar{
-    width: 5px;
+   display: none;
+   overflow: hidden;
 }
 ::-webkit-scrollbar-track{
     background: #555;
